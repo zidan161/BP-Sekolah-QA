@@ -1,0 +1,1719 @@
+{
+  "id": "6fdaef0f-b7eb-4844-9784-5a6f0a89a784",
+  "version": "2.0",
+  "name": "Big Project",
+  "url": "https://staging.cicle.app",
+  "tests": [{
+    "id": "b9306328-89ef-49d6-8a2c-f8a76c8f1786",
+    "name": "TC01_create list",
+    "commands": [{
+      "id": "ec263733-5f7f-476d-a79d-5175a300c793",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ed506ee-712d-4bc2-973d-22f6d38a5acb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) .ImageMember_wrapper__ouMKB:nth-child(3)",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) .ImageMember_wrapper__ouMKB:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06f7bbf0-dac3-4ec9-8cf8-f6ccb160fe9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .BoxMenu_BoxMenu__1FX08",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .BoxMenu_BoxMenu__1FX08", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f093eea-a204-453e-bd37-753f767694ae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add List",
+      "targets": [
+        ["linkText=Add List", "linkText"],
+        ["css=.CreateListButton_buttonBottom__16OpZ > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Add List')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[3]/button/div/div/a", "xpath:idRelative"],
+        ["xpath=//button/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3556af50-a408-47b0-948c-c182643231e5",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[3]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "First List"
+    }, {
+      "id": "c42bfef4-02a9-4ddf-aead-13992ec294e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Button_container__1WNuB",
+      "targets": [
+        ["css=.Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[3]/div/div/form/div[2]/div/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9c3e9a17-eb45-48e2-a8a7-efa08fff247b",
+    "name": "TC04_create card on the list",
+    "commands": [{
+      "id": "96124219-e245-43e3-8456-fd6291a90423",
+      "comment": "",
+      "command": "open",
+      "target": "/check-login?previousPath=/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79385948-cd75-439f-af7e-879170950cb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) p",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Paket soal B :)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "421a4588-8388-4954-b889-f8279beec539",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CardSnapshot_SmallCard__1TW01:nth-child(4)",
+      "targets": [
+        ["css=.CardSnapshot_SmallCard__1TW01:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div/div[4]", "xpath:idRelative"],
+        ["xpath=//a/div/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38e9a6e6-d72d-4fea-bae5-292513438694",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Add Card')])[2]",
+      "targets": [
+        ["css=.List_List__30q9z:nth-child(2) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add Card')])[2]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[2]/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b6afda2-f2b3-499d-a023-bdb907e189d1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[2]/div/div/div[4]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Card One"
+    }, {
+      "id": "4f48d9c4-8c3a-46f8-be2f-04754f6a2eb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[2]/div/div/div[4]/div[3]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c8d67d4-ccbe-4d40-88c1-4f4c3ccd6043",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "2c82d664-ffa0-4100-a4a5-d3859f315862",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9dfa92a1-9166-439b-bfca-6ba703e949fb",
+    "name": "TC02_set list as complete",
+    "commands": [{
+      "id": "b707058b-2afd-44d3-bf16-764107b346a0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5f11d59-a785-41da-b0f6-458f9a9d3393",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) p",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Paket soal B :)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9415d6ef-a16f-464e-9c37-34171bb0ce07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-body",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-body", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "166b7ae4-0a72-4f2f-9709-6a8b68d53049",
+      "comment": "",
+      "command": "click",
+      "target": "css=.List_List__30q9z:nth-child(1) .RoundActionMenu_container__2ta8s > .MuiSvgIcon-root",
+      "targets": [
+        ["css=.List_List__30q9z:nth-child(1) .RoundActionMenu_container__2ta8s > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a26e3e31-fecf-4664-9543-50f26755ea2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ListMenu_menu__2FIPr:nth-child(3) > p",
+      "targets": [
+        ["css=.ListMenu_menu__2FIPr:nth-child(3) > p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[3]/div/div/div/div[2]/div[2]/div[3]/div/div/div[3]/p", "xpath:idRelative"],
+        ["xpath=//div[3]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Set as a Complete List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ed1a89f-807a-4c26-b8ca-628e3eb80ae2",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "d59ebf0f-403b-4060-86f4-75a6f1b7aa1b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "95de3011-60b9-41fa-b654-9164b93f4148",
+    "name": "TC03_unset list as complete",
+    "commands": [{
+      "id": "f2bca5db-fd0c-497d-bb46-cf5d23a611ca",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ea0841c-1533-4355-a43a-e559af9f5af7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) p",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Paket soal B :)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31254558-7dc1-4b1e-b60e-e353e788d2ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-body",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-body", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45c52262-d832-4d6e-b6e0-378b3b83e058",
+      "comment": "",
+      "command": "click",
+      "target": "css=.List_List__30q9z:nth-child(1) .ListContainer_headerSection__more__3On04 .MuiSvgIcon-root",
+      "targets": [
+        ["css=.List_List__30q9z:nth-child(1) .ListContainer_headerSection__more__3On04 .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d4769ff-5dc0-486a-b806-831433eee1b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ListMenu_menu__2FIPr:nth-child(3) > p",
+      "targets": [
+        ["css=.ListMenu_menu__2FIPr:nth-child(3) > p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[3]/div/div/div/div[2]/div[2]/div[3]/div/div/div[3]/p", "xpath:idRelative"],
+        ["xpath=//div[3]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Set as a Complete List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49a49aff-fd41-4a00-aeff-824a727984a5",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "138328cc-95d9-45d8-b02d-c46d89114f3f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "66161916-6f8e-448d-83cc-74fcc41a5624",
+    "name": "TC05_add card note",
+    "commands": [{
+      "id": "2f4135e6-aad8-4e4a-b98c-fa5109ae6595",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b593b893-3f4b-4c06-9186-ef809da4a882",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) p",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Paket soal B :)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f2fcb13-7acd-42b8-adf0-796501a8f0b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-body",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-body", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ede01757-85a7-43bd-a5ff-c1f03219e204",
+      "comment": "",
+      "command": "click",
+      "target": "css=.OverlayButton_container__3kxDV:nth-child(2) .ModalLinkNoDecor_ModalLink__1zSCj",
+      "targets": [
+        ["css=.OverlayButton_container__3kxDV:nth-child(2) .ModalLinkNoDecor_ModalLink__1zSCj", "css:finder"],
+        ["xpath=//div[@id='listcard_content-1']/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cards/6120a091b94eac4d50df6d07')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28d1c5e0-bc55-414e-92f8-8146a9017619",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ManageDesc_sectionEmptyDesc__md0ll",
+      "targets": [
+        ["css=.ManageDesc_sectionEmptyDesc__md0ll", "css:finder"],
+        ["xpath=//div[4]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9811dc46-36df-4787-8e4e-9f7f09d12352",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[4]/div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "<p>hasajgs</p>"
+    }, {
+      "id": "1446c2f7-dcd8-4d59-8214-367836a44a55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[38]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": "<p>hasajgs</p>"
+    }, {
+      "id": "1f383c86-17b3-42b2-99b6-75b920bcf6cc",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "042cb236-d354-40f9-a20c-58c29d1ac0c5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "670b66a6-23c2-4bc1-a14a-44e86147bfcf",
+    "name": "TC06_add attachment to card",
+    "commands": [{
+      "id": "f7eccd36-d4e6-45a2-a924-a760a531f6c2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ba5f9a0-4762-4a91-8d5f-7a2d51c4de9c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0b1f8ac-4189-4a3a-89c5-c9adddd931b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) .ShowLimitMembers_container__1aumA",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) .ShowLimitMembers_container__1aumA", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f431951-4950-4702-b0af-f146ef064e3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68032e7e-a3c2-41a3-86b0-19da1b03b288",
+      "comment": "",
+      "command": "click",
+      "target": "css=#listcard_content-0 > .OverlayButton_container__3kxDV:nth-child(1) .ModalLinkNoDecor_ModalLink__1zSCj",
+      "targets": [
+        ["css=#listcard_content-0 > .OverlayButton_container__3kxDV:nth-child(2) .ModalLinkNoDecor_ModalLink__1zSCj", "css:finder"],
+        ["xpath=//div[@id='listcard_content-0']/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cards/61161cd1c69f45acfb4ea9eb')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "446ce9a6-eb61-46dc-a9d0-3e2a31cfda02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2) > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn:nth-child(2) > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[4]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd8eab18-f57d-4b4e-b13e-e1f5ac824fb3",
+      "comment": "",
+      "command": "type",
+      "target": "css=div:nth-child(1) > input",
+      "targets": [
+        ["css=div:nth-child(1) > input", "css:finder"],
+        ["xpath=(//input[@type='file'])[2]", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "D:\\Kode login.png"
+    }]
+  }, {
+    "id": "a2e48474-3140-4c8d-8ec1-a35462e197fc",
+    "name": "TC07_moving card",
+    "commands": [{
+      "id": "dadf5149-836b-4db9-b180-32d95bbc6d95",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be7c78a3-931b-4fb0-bd51-94a65a8f3052",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) p",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Paket soal B :)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "123659bb-1cea-4e5e-86d9-3459f0ee2de3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48939655-1b58-41a5-b0d3-62a8d938d1ea",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=#listcard_content-0 > .OverlayButton_container__3kxDV:nth-child(1) .ModalLinkNoDecor_ModalLink__1zSCj",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2e7f554-a37f-4947-99f0-8a5300b3a72e",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=listcard_container-1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b14d389-80bb-4bae-ade5-a0262ee6c432",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=listcard_container-1",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d426988e-45bf-4bd3-a46d-06cf258182ac",
+    "name": "TC10_send chat to goup chat",
+    "commands": [{
+      "id": "57cb4515-93b4-4f1a-8ccc-9cb586954dd7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8cf7340d-193a-42c0-b19f-8c9922917736",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) p",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Paket soal B :)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2301cb0-14d8-4859-bd93-42146173d4b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#root > div.MainLayout_MainLayout__1OYFQ.container > div > div.MainLayout_mainCol__1bT_B.col-md-10 > div > div.TeamPage_rowBox__zylkg.row > div:nth-child(1) > a > div",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10ccd39c-78d2-4488-98e1-75af631569c9",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[4]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>halo</p>"
+    }, {
+      "id": "2c405f41-7631-42ff-adc4-87d0f93cce98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rounded-circle",
+      "targets": [
+        ["css=.rounded-circle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[4]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "75ae7e64-7f29-40a5-91c7-82401a39fa84",
+    "name": "TC11_send attachment group chat",
+    "commands": [{
+      "id": "e66c3528-002f-47ac-84de-99e189583251",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60c7f204-45d6-4470-8893-9614d9de3ede",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1034x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0cca8daf-2450-4828-8c80-a636f43b4709",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) .Card_Card__2LWWW",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) .Card_Card__2LWWW", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88c83238-9405-400a-b80d-9769ee75d26b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.AttachmentItemSnapshot_senderName__1izPO > p",
+      "targets": [
+        ["css=.AttachmentItemSnapshot_senderName__1izPO > p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div/a/div/div/div[3]/div[3]/div/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8f9288c-1583-446c-bd60-00d24ca8ba81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CreateGroupMessage_attachmentButton__i4UJs > .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CreateGroupMessage_attachmentButton__i4UJs > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b887f45-813c-4817-b216-ef4f442c9fc8",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='file']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[4]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "D:\\Selenium login.png"
+    }, {
+      "id": "ccf34acb-26fb-4f83-9314-3ac760b0ff13",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "e8613ed5-961f-41b9-a837-68b0db4ec267",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "175b54ea-6128-4e94-83eb-c99664367361",
+    "name": "TC13_delete sent message",
+    "commands": [{
+      "id": "3f4eaad1-d054-48b8-a7ae-f7e4a8a98a2f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86487e98-2431-4605-874b-c5cbaae99544",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) p",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Paket soal B :)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d573a27-e0bd-4d1a-9982-37ba75737eb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#root > div.MainLayout_MainLayout__1OYFQ.container > div > div.MainLayout_mainCol__1bT_B.col-md-10 > div > div.TeamPage_rowBox__zylkg.row > div:nth-child(1) > a",
+      "targets": [
+        ["css=.AttachmentItemSnapshot_AttachmentItem__1wsqR:nth-child(1) i", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div/a/div/div/div[3]/div/div/div[2]/div[2]/div/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"],
+        ["xpath=//i[contains(.,'This message was deleted')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ece40a2f-063a-4510-8e02-80cceed707b7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"group-chat-page\"]/div/div/div[2]/div/div[1]/div[1]/div[2]",
+      "targets": [
+        ["css=.AttachmentItem_iconOption__2qhwj > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f57f528-22ff-413c-9631-e845bfe8bb76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MessageMenuPopUp_menu__1Jgjt",
+      "targets": [
+        ["css=.MessageMenuPopUp_menu__1Jgjt", "css:finder"],
+        ["xpath=//div[@id='group-chat-page']/div/div/div[3]/div/div/div/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5859f32-71ec-460b-abf2-36b417a3a497",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-danger",
+      "targets": [
+        ["css=.btn-danger", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='group-chat-page']/div/div/div[3]/div/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0844dbe9-46ee-4e29-997c-a39cf57a0fce",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "82a45bf6-671a-4cb5-ab08-556441559af1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "84fa6666-7446-470e-83ce-7cac0f215718",
+    "name": "TC14_create new event",
+    "commands": [{
+      "id": "1c351024-cb24-4850-b3a1-880194a8fc44",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "845f63e7-63ed-41a7-b831-72f0349ec4cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1)",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) h1", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/h1", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Paket B')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b66d037-e2d1-41dc-95a3-6c6c8c0d53b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.EventSnapshot_Event__QCEYl",
+      "targets": [
+        ["css=.EventSnapshot_Event__QCEYl", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[3]/a/div/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd191533-5317-44fa-b5fc-4931fc1e318e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+ Create Event!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35adb247-7284-47e1-956c-eeb92feae594",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+ Create Event!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "936cf542-d64c-4daf-bbc6-bfb9b92e96c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "407db2c1-1448-4563-bd05-c6b5b9a1efdb",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Second Event"
+    }, {
+      "id": "3c7da010-72ef-4d67-99ef-da5f19ccb0d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c7c5088-a9bc-410d-8cee-6e1fdc624db1",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "57a28ec8-fd6a-4e96-b311-15ffede6fa33",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ea833858-aebe-4d1a-b22d-1417f27de3eb",
+    "name": "TC15_add member on event",
+    "commands": [{
+      "id": "1c8e8f3c-d19c-4de6-b181-1cca1f2b524a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "486b8303-2bd2-4ace-a277-37e728243c09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1)",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Paket soal B :)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecb773e5-19d5-4b0d-a29d-d80a55103ae4",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) > .EventSnapshot_Event__QCEYl p",
+      "targets": [
+        ["css=div:nth-child(3) > .EventSnapshot_Event__QCEYl p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[3]/a/div/div/div[3]/div[3]/div[2]/div/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div[2]/div/div/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6006f047-2061-40ad-b600-b610fd09f140",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+ Create Event!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3136a21-3353-4f92-b56f-7f80923d0eef",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "New Event"
+    }, {
+      "id": "edfd0953-d692-4201-9ba6-c33c17073f66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CreateEventPage_plusButton__3LxsU > .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CreateEventPage_plusButton__3LxsU > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7824add-1d84-4027-892b-d8be5cbcc86d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ManageSubscribersContainer_ManageSubscribersContainer__teamMember__dAJ8o:nth-child(3) > .mr-auto",
+      "targets": [
+        ["css=.ManageSubscribersContainer_ManageSubscribersContainer__teamMember__dAJ8o:nth-child(3) > .mr-auto", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/div[3]/div[3]/div[3]/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Zidan Aqila Muhammad')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f51f79eb-4cf5-41f9-9954-6e1abbe3d4f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ManageSubscribersContainer_ManageSubscribersContainer__teamMember__dAJ8o:nth-child(2) > .mr-auto",
+      "targets": [
+        ["css=.ManageSubscribersContainer_ManageSubscribersContainer__teamMember__dAJ8o:nth-child(2) > .mr-auto", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/div[3]/div[3]/div[3]/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div[3]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Muhammad Fakhri Abdillah')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbc4c4d7-1bf4-4cc2-99d1-9464f43c4043",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiSvgIcon-root:nth-child(2) > path",
+      "targets": [
+        ["css=.MuiSvgIcon-root:nth-child(2) > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "19e7d4f9-9db7-4b92-9c19-87f09755868f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2b9a07fa-2ab2-46cb-a9d2-f10ba06b4f1a",
+    "name": "TC16_add notes on event",
+    "commands": [{
+      "id": "d3678a1b-91d4-43a8-b1ca-dcede2ce84af",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "495c8cc2-7c20-412e-9e99-f1385369b949",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1)",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) .ShowLimitMembers_container__1aumA", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bc8d9eb-8ecf-4854-888c-612944c562da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(3) .card-body",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(3) .card-body", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[3]/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9a3eabb-b257-4f26-a8bb-d74e3832739e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+ Create Event!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5392e68e-8371-45ae-80c2-5a5a703abe92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "537e50ad-dd69-4bfa-a59f-52b5ccb6ecfc",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Event"
+    }, {
+      "id": "c2389efe-4312-4e89-8fcf-1738d872dc8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fr-element > p",
+      "targets": [
+        ["css=.fr-element > p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/div[5]/div/div[3]/div/p", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[3]/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebb76020-fa61-4373-91ac-d2c463565c62",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/div[5]/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "<p>Some Description</p>"
+    }, {
+      "id": "199280ab-e76b-4479-ae9e-dcc79650fcc1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c3f45c45-4900-4373-a907-516b5862ffda",
+    "name": "TC17_create new private event",
+    "commands": [{
+      "id": "ff812d9a-c93d-4b71-96b6-72d2fdd010fa",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2009cb1-239e-417f-b9c4-0b6cc5761a58",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1034x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b4d1eac-0afb-436b-bb52-bb5262ba277f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) p",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Paket soal B :)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "643833df-4692-41fb-a061-96ef248cc229",
+      "comment": "",
+      "command": "click",
+      "target": "css=.EventSnapshot_Event__QCEYl:nth-child(5)",
+      "targets": [
+        ["css=.EventSnapshot_Event__QCEYl:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[3]/a/div/div/div[3]/div[5]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "367c48a5-db22-44d5-ad05-02e0a0dd3cca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+ Create Event!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dbc8099-aab8-4172-92b4-c7e758fbc852",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bd7fb64-1480-43c2-91fc-6ef1f5c30629",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Event Private"
+    }, {
+      "id": "66059f77-4d61-4347-9533-93a427b0b30e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CreateEventPage_plusButton__3LxsU > .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CreateEventPage_plusButton__3LxsU > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5019e18b-6c50-4bbe-92ca-86dc9153c7e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ManageSubscribersContainer_ManageSubscribersContainer__teamMember__dAJ8o:nth-child(2) > .mr-auto",
+      "targets": [
+        ["css=.ManageSubscribersContainer_ManageSubscribersContainer__teamMember__dAJ8o:nth-child(2) > .mr-auto", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/div[3]/div[3]/div[3]/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div[3]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Muhammad Fakhri Abdillah')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ffea906-5e83-491f-956e-4ea8da872f9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ManageSubscribersContainer_ManageSubscribersContainer__teamMember__dAJ8o:nth-child(3) > .mr-auto",
+      "targets": [
+        ["css=.ManageSubscribersContainer_ManageSubscribersContainer__teamMember__dAJ8o:nth-child(3) > .mr-auto", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/div[3]/div[3]/div[3]/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Zidan Aqila Muhammad')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3246f9ed-de6e-482d-bf26-daf4fc9cbe42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiSvgIcon-root:nth-child(2)",
+      "targets": [
+        ["css=.MuiSvgIcon-root:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd72b027-b93c-4936-b2f1-870b4e3d6d92",
+      "comment": "",
+      "command": "click",
+      "target": "name=switchItem",
+      "targets": [
+        ["name=switchItem", "name"],
+        ["css=.jss4", "css:finder"],
+        ["xpath=//input[@name='switchItem']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/div[4]/div[2]/label/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d7d5521-15b7-4741-a4f1-e7ab874c53a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6a6ba862-9642-41a9-a418-cec35bd97b5b",
+    "name": "TC19_edit created event",
+    "commands": [{
+      "id": "38b97023-f422-477d-bbd0-b2fdf0aedd53",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1ee2d56-d28f-4ce4-ad7a-b8887b10f77a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1034x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17f24586-5ad6-4283-9f6d-15fbb14e6167",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) p",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Paket soal B :)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c6c4612-4ee3-46a5-8e3c-c03afe4c6031",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .EventSnapshot_Event__QCEYl",
+      "targets": [
+        ["css=div:nth-child(1) > .EventSnapshot_Event__QCEYl", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[3]/a/div/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ec50cfa-3b22-4b60-b193-3c220af7e66e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.EventList_showEvents__kOuHt:nth-child(2) h1",
+      "targets": [
+        ["css=.EventList_showEvents__kOuHt:nth-child(2) h1", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[3]/div/div/div/div[2]/div[2]/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'daily meeting')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6c367c2-c4fb-4fbe-a1e7-9de4159c0287",
+      "comment": "",
+      "command": "click",
+      "target": "css=.RoundActionMenu_container__2ta8s > .MuiSvgIcon-root",
+      "targets": [
+        ["css=.RoundActionMenu_container__2ta8s > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a612740-bd52-4da1-aacf-dbbb48e05dfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.OccurrenceMenu_menu__LZ65X",
+      "targets": [
+        ["css=.OccurrenceMenu_menu__LZ65X", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cd0ae08-11ff-4730-9193-e5e66d33b177",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/div[5]/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "<p>Ini saya edit</p>"
+    }, {
+      "id": "5bb3b241-b80d-4492-b12d-e438b7815597",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffe1a764-ac42-4468-889c-3684da2783fc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee70c941-bf65-4173-8345-a0c1d3420a0c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn:nth-child(1) > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn:nth-child(1) > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fafa584-73d4-4b0d-a727-8131803c0157",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-outline-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/div/div[3]/button[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "78c10741-5c61-46ab-a971-ffb8000de21c",
+    "name": "TC18_add event to google calendar",
+    "commands": [{
+      "id": "d92fae81-3e67-4b2c-8172-91a3b9f63735",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e40158e-342f-48cf-8d60-763746da3c56",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f2c877a-26eb-4e28-add5-83f61bdfbcc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) p",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Paket soal B :)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95c06c56-48ef-4875-9a0b-76d9fa9e3bf3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(3) .BoxMenu_BoxMenu__1FX08",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(3) .BoxMenu_BoxMenu__1FX08", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[3]/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fee2cb4a-f4bd-4609-aa20-ca4003eef290",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Event_contentSection__header__title__19Km8 > h1",
+      "targets": [
+        ["css=.Event_contentSection__header__title__19Km8 > h1", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[3]/div/div/div/div[2]/div[2]/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'daily meeting')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53c4cf36-868b-4b7b-b366-658989991013",
+      "comment": "",
+      "command": "click",
+      "target": "css=.OccurrencePage_addToCalendar__fuQAH",
+      "targets": [
+        ["css=.OccurrencePage_addToCalendar__fuQAH", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div/div[2]/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Add to My Calendar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6af9b14c-98f7-4608-b31c-bd82673c7043",
+      "comment": "",
+      "command": "click",
+      "target": "css=.AddOccurrenceCalendarMenu_menu__KlEm9:nth-child(1) > p",
+      "targets": [
+        ["css=.AddOccurrenceCalendarMenu_menu__KlEm9:nth-child(1) > p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div/div[2]/div/div[3]/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Add to Google Calendar')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7293",
+      "windowTimeout": 2000
+    }, {
+      "id": "7f26f4f0-bfea-44d3-ba36-9609d9e030cf",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7293}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01cd4979-4784-4789-b454-42d1ef1012eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#xSaveBu .NPEfkd",
+      "targets": [
+        ["css=#xSaveBu .NPEfkd", "css:finder"],
+        ["xpath=//div[@id='xSaveBu']/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "41144301-641b-45f0-919d-034b49102884",
+    "name": "TC08_add member on card",
+    "commands": [{
+      "id": "82e527f8-4238-4788-9f7f-1e82a2c64567",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebb87627-b791-4d03-9f00-23898693dafb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "793626b5-7a1d-4501-bfed-8cfecca587d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) p",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Paket soal B :)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25f5f430-af39-4982-a7c7-0d61352123ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-body",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-body", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d1f279c-169f-43f2-b0fd-8880de6f47b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#listcard_content-1 > .OverlayButton_container__3kxDV:nth-child(1) .ModalLinkNoDecor_ModalLink__1zSCj",
+      "targets": [
+        ["css=#listcard_content-1 > .OverlayButton_container__3kxDV:nth-child(1) .ModalLinkNoDecor_ModalLink__1zSCj", "css:finder"],
+        ["xpath=//div[@id='listcard_content-1']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cards/6120a1deb94eac12b5df6f43')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[3]/div/div/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe5b0f38-5740-4ca4-bda2-dd147a830e65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(1) > .CardDetailContainer_buttonAction__2Sfwo:nth-child(2) .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(1) > .CardDetailContainer_buttonAction__2Sfwo:nth-child(2) .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "aad1a926-b81b-46c6-a3a0-f54960c9e2db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.OverlayButton_container__3kxDV:nth-child(2) .mr-auto",
+      "targets": [
+        ["css=.OverlayButton_container__3kxDV:nth-child(2) .mr-auto", "css:finder"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div[4]/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Muhammad Fakhri Abdillah')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13eaf520-d188-41a3-b51c-c489608470bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.OverlayButton_container__3kxDV:nth-child(4) .mr-auto",
+      "targets": [
+        ["css=.OverlayButton_container__3kxDV:nth-child(4) .mr-auto", "css:finder"],
+        ["xpath=//div[4]/div[3]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Johannes Clinton')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3c47fa8-af9b-46fb-ac9a-7d30ba48d125",
+      "comment": "",
+      "command": "click",
+      "target": "css=.OverlayButton_container__3kxDV:nth-child(5) .mr-auto",
+      "targets": [
+        ["css=.OverlayButton_container__3kxDV:nth-child(5) .mr-auto", "css:finder"],
+        ["xpath=//div[4]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Sandi Ramdani')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3b3be4f-9c91-416e-8cb4-2e96b7a6b709",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "9f7ee1ac-4359-4bef-8a75-4d71c9008d94",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a7329561-0f80-4e43-a932-bc1b3e82af6c",
+    "name": "TC12_mention member on chat",
+    "commands": [{
+      "id": "4bc3a7f3-b489-422d-a836-f9ee858182bb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3eab7b6f-87be-4470-be93-e3eea2ceac53",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4b7c8db-e3cb-48eb-b73e-0f70645f03b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) .ImageMember_wrapper__ouMKB:nth-child(3)",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) .ImageMember_wrapper__ouMKB:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "302a3cde-1b64-470a-8ea9-b25880b1e3ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=#root > div.MainLayout_MainLayout__1OYFQ.container > div > div.MainLayout_mainCol__1bT_B.col-md-10 > div > div.TeamPage_rowBox__zylkg.row > div:nth-child(1) > a",
+      "targets": [
+        ["css=.AttachmentItemSnapshot_AttachmentItem__1wsqR:nth-child(1) i", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div/a/div/div/div[3]/div/div/div[2]/div[2]/div/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"],
+        ["xpath=//i[contains(.,'This message was deleted')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1fab8ce-4f5e-4200-bd5b-ac804ba4607b",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d9e01db-5997-4fba-8c06-86b1fbe49605",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[4]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p><span id=\"mentioned-user\" contenteditable=\"false\" data-mentioned-user-id=\"61112792ca29534aec31552c\" class=\"fr-deletable fr-tribute\" style=\"padding:1px; background-color:#e8ffff; border-radius:2px; display:inline-flex; align-items:center\"><img style=\"width:20px; height:20px; object-fit: cover; margin-right:3px; border-radius:100%;\" src=\"https://lh3.googleusercontent.com/a/AATXAJyD_Sy8NmCGjpsnPrZ-2rJ3EKg9IWC9sRkPRx_5=s96-c\"><a href=\"/profiles/61112792ca29534aec31552c\">Sandi Ramdani</a></span>&nbsp;</p>"
+    }, {
+      "id": "96b8e2d2-1142-4234-81a4-32f10ad6f361",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ChatButton_container__3Ua3q path",
+      "targets": [
+        ["css=.ChatButton_container__3Ua3q path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7476a0c6-ba7b-484d-8322-125644438df8",
+    "name": "TC09_create new private card",
+    "commands": [{
+      "id": "1514bafe-4e1c-40b0-886c-c3c2e3b8e029",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56c5a9bf-7063-47f1-beda-f9cea14d4f38",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e36b60ac-90e6-42cc-8b6e-50940c8161a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) .ShowLimitMembers_container__1aumA",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(1) .ShowLimitMembers_container__1aumA", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63b60f42-a8ff-4c34-8da9-058e62382d6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4511c049-2993-4413-a25d-81d4941ae70f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Add Card')])[3]",
+      "targets": [
+        ["css=.List_List__30q9z:nth-child(3) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add Card')])[3]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[3]/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3351605-e7a1-495d-bed7-1c1e1cd89bb2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[3]/div/div/div[4]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "New Card"
+    }, {
+      "id": "24c462de-68f1-4259-bb2c-5fb22dbf255c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss4",
+      "targets": [
+        ["css=.jss4", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[3]/div/div/div[4]/div[2]/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dda620e-456f-48b7-b619-e3083b2dd877",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[3]/div/div/div[4]/div[3]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b67b4ff4-99b6-4ae1-8815-282531530e0b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "5fdc5825-7fd5-4ecd-9f08-ffa17cd04402",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=notistack-snackbar",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5bbb108f-31ad-47ce-8cbe-52f10f494e6a",
+    "name": "TS Board",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b9306328-89ef-49d6-8a2c-f8a76c8f1786", "9dfa92a1-9166-439b-bfca-6ba703e949fb", "95de3011-60b9-41fa-b654-9164b93f4148", "9c3e9a17-eb45-48e2-a8a7-efa08fff247b", "66161916-6f8e-448d-83cc-74fcc41a5624", "670b66a6-23c2-4bc1-a14a-44e86147bfcf", "a2e48474-3140-4c8d-8ec1-a35462e197fc"]
+  }, {
+    "id": "2a68b248-74b2-4f3e-91b3-9a150743d2be",
+    "name": "TS Group Chat",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d426988e-45bf-4bd3-a46d-06cf258182ac", "75ae7e64-7f29-40a5-91c7-82401a39fa84", "175b54ea-6128-4e94-83eb-c99664367361"]
+  }, {
+    "id": "33914eae-6ab4-40e9-b104-3ed30c683d3e",
+    "name": "TS Schedule",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["84fa6666-7446-470e-83ce-7cac0f215718", "ea833858-aebe-4d1a-b22d-1417f27de3eb", "2b9a07fa-2ab2-46cb-a9d2-f10ba06b4f1a", "c3f45c45-4900-4373-a907-516b5862ffda", "6a6ba862-9642-41a9-a418-cec35bd97b5b", "78c10741-5c61-46ab-a971-ffb8000de21c"]
+  }],
+  "urls": ["https://staging.cicle.app/"],
+  "plugins": []
+}
