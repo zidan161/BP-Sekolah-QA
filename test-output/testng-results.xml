@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-25T13:46:58 WIB" name="Cicle Suite" finished-at="2021-08-25T13:50:30 WIB" duration-ms="211275">
+    <groups>
+    </groups>
+    <test started-at="2021-08-25T13:46:58 WIB" name="TS Board" finished-at="2021-08-25T13:48:26 WIB" duration-ms="88024">
+      <class name="bigprojectsekolahqa.TSBoardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:bigprojectsekolahqa.TSBoardTest@247d8ae]" started-at="2021-08-25T13:46:58 WIB" name="setUp" finished-at="2021-08-25T13:47:03 WIB" duration-ms="4345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tC01createlist()[pri:0, instance:bigprojectsekolahqa.TSBoardTest@247d8ae]" started-at="2021-08-25T13:47:03 WIB" name="tC01createlist" finished-at="2021-08-25T13:47:37 WIB" duration-ms="33763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC01createlist -->
+        <test-method signature="tC02setlistascomplete()[pri:0, instance:bigprojectsekolahqa.TSBoardTest@247d8ae]" started-at="2021-08-25T13:47:37 WIB" name="tC02setlistascomplete" finished-at="2021-08-25T13:47:45 WIB" duration-ms="8475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC02setlistascomplete -->
+        <test-method signature="tC03unsetlistascomplete()[pri:0, instance:bigprojectsekolahqa.TSBoardTest@247d8ae]" started-at="2021-08-25T13:47:45 WIB" name="tC03unsetlistascomplete" finished-at="2021-08-25T13:47:53 WIB" duration-ms="7780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC03unsetlistascomplete -->
+        <test-method signature="tC04reatecardonthelist()[pri:0, instance:bigprojectsekolahqa.TSBoardTest@247d8ae]" started-at="2021-08-25T13:47:53 WIB" name="tC04reatecardonthelist" finished-at="2021-08-25T13:47:59 WIB" duration-ms="5954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC04reatecardonthelist -->
+        <test-method signature="tC05addcardnote()[pri:0, instance:bigprojectsekolahqa.TSBoardTest@247d8ae]" started-at="2021-08-25T13:47:59 WIB" name="tC05addcardnote" finished-at="2021-08-25T13:48:04 WIB" duration-ms="5321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC05addcardnote -->
+        <test-method signature="tC06addattachmenttocard()[pri:0, instance:bigprojectsekolahqa.TSBoardTest@247d8ae]" started-at="2021-08-25T13:48:04 WIB" name="tC06addattachmenttocard" finished-at="2021-08-25T13:48:09 WIB" duration-ms="5078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC06addattachmenttocard -->
+        <test-method signature="tC07movingcard()[pri:0, instance:bigprojectsekolahqa.TSBoardTest@247d8ae]" started-at="2021-08-25T13:48:09 WIB" name="tC07movingcard" finished-at="2021-08-25T13:48:14 WIB" duration-ms="4790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC07movingcard -->
+        <test-method signature="tC08addmemberoncard()[pri:0, instance:bigprojectsekolahqa.TSBoardTest@247d8ae]" started-at="2021-08-25T13:48:14 WIB" name="tC08addmemberoncard" finished-at="2021-08-25T13:48:19 WIB" duration-ms="5342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC08addmemberoncard -->
+        <test-method signature="tC09createnewprivatecard()[pri:0, instance:bigprojectsekolahqa.TSBoardTest@247d8ae]" started-at="2021-08-25T13:48:19 WIB" name="tC09createnewprivatecard" finished-at="2021-08-25T13:48:26 WIB" duration-ms="6632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC09createnewprivatecard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bigprojectsekolahqa.TSBoardTest@247d8ae]" started-at="2021-08-25T13:48:26 WIB" name="tearDown" finished-at="2021-08-25T13:48:26 WIB" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bigprojectsekolahqa.TSBoardTest -->
+    </test> <!-- TS Board -->
+    <test started-at="2021-08-25T13:48:27 WIB" name="TS Group Chat" finished-at="2021-08-25T13:48:54 WIB" duration-ms="27494">
+      <class name="bigprojectsekolahqa.TSGroupChatTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:bigprojectsekolahqa.TSGroupChatTest@47faa49c]" started-at="2021-08-25T13:48:27 WIB" name="setUp" finished-at="2021-08-25T13:48:29 WIB" duration-ms="2374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tC10sendchattogoupchat()[pri:0, instance:bigprojectsekolahqa.TSGroupChatTest@47faa49c]" started-at="2021-08-25T13:48:29 WIB" name="tC10sendchattogoupchat" finished-at="2021-08-25T13:48:37 WIB" duration-ms="7984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC10sendchattogoupchat -->
+        <test-method signature="tC11sendattachmentgroupchat()[pri:0, instance:bigprojectsekolahqa.TSGroupChatTest@47faa49c]" started-at="2021-08-25T13:48:37 WIB" name="tC11sendattachmentgroupchat" finished-at="2021-08-25T13:48:42 WIB" duration-ms="4773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC11sendattachmentgroupchat -->
+        <test-method signature="tC12mentionmemberonchat()[pri:0, instance:bigprojectsekolahqa.TSGroupChatTest@47faa49c]" started-at="2021-08-25T13:48:42 WIB" name="tC12mentionmemberonchat" finished-at="2021-08-25T13:48:48 WIB" duration-ms="6831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC12mentionmemberonchat -->
+        <test-method signature="tC13deletesentmessage()[pri:0, instance:bigprojectsekolahqa.TSGroupChatTest@47faa49c]" started-at="2021-08-25T13:48:48 WIB" name="tC13deletesentmessage" finished-at="2021-08-25T13:48:54 WIB" duration-ms="5063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC13deletesentmessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bigprojectsekolahqa.TSGroupChatTest@47faa49c]" started-at="2021-08-25T13:48:54 WIB" name="tearDown" finished-at="2021-08-25T13:48:54 WIB" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bigprojectsekolahqa.TSGroupChatTest -->
+    </test> <!-- TS Group Chat -->
+    <test started-at="2021-08-25T13:48:54 WIB" name="TS Schedule" finished-at="2021-08-25T13:50:30 WIB" duration-ms="95650">
+      <class name="bigprojectsekolahqa.TSScheduleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:bigprojectsekolahqa.TSScheduleTest@47987356]" started-at="2021-08-25T13:48:54 WIB" name="setUp" finished-at="2021-08-25T13:48:57 WIB" duration-ms="2749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tC14createnewevent()[pri:0, instance:bigprojectsekolahqa.TSScheduleTest@47987356]" started-at="2021-08-25T13:48:57 WIB" name="tC14createnewevent" finished-at="2021-08-25T13:49:32 WIB" duration-ms="35432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC14createnewevent -->
+        <test-method signature="tC15addmemberonevent()[pri:0, instance:bigprojectsekolahqa.TSScheduleTest@47987356]" started-at="2021-08-25T13:49:32 WIB" name="tC15addmemberonevent" finished-at="2021-08-25T13:49:39 WIB" duration-ms="6711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC15addmemberonevent -->
+        <test-method signature="tC16addnotesonevent()[pri:0, instance:bigprojectsekolahqa.TSScheduleTest@47987356]" started-at="2021-08-25T13:49:39 WIB" name="tC16addnotesonevent" finished-at="2021-08-25T13:49:45 WIB" duration-ms="6398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC16addnotesonevent -->
+        <test-method signature="tC17createnewprivateevent()[pri:0, instance:bigprojectsekolahqa.TSScheduleTest@47987356]" started-at="2021-08-25T13:49:45 WIB" name="tC17createnewprivateevent" finished-at="2021-08-25T13:49:57 WIB" duration-ms="12028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC17createnewprivateevent -->
+        <test-method signature="tC18editcreatedevent()[pri:0, instance:bigprojectsekolahqa.TSScheduleTest@47987356]" started-at="2021-08-25T13:49:57 WIB" name="tC18editcreatedevent" finished-at="2021-08-25T13:50:14 WIB" duration-ms="16197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC18editcreatedevent -->
+        <test-method signature="tC19addeventtogooglecalendar()[pri:0, instance:bigprojectsekolahqa.TSScheduleTest@47987356]" started-at="2021-08-25T13:50:14 WIB" name="tC19addeventtogooglecalendar" finished-at="2021-08-25T13:50:29 WIB" duration-ms="15612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC19addeventtogooglecalendar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bigprojectsekolahqa.TSScheduleTest@47987356]" started-at="2021-08-25T13:50:29 WIB" name="tearDown" finished-at="2021-08-25T13:50:30 WIB" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bigprojectsekolahqa.TSScheduleTest -->
+    </test> <!-- TS Schedule -->
+  </suite> <!-- Cicle Suite -->
+</testng-results>

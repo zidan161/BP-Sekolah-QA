@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Cicle_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Cicle Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Cicle_Suite" class="navigator-link ">
+                    <span>D:\bigprojectsekolahqa\testNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Cicle_Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Cicle_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Cicle_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Cicle_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Cicle_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Cicle_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Cicle_Suite" class="hide-methods passed suite-Cicle_Suite"> (hide)</a> <!-- hide-methods passed suite-Cicle_Suite -->
+                      <a href="#" panel-name="suite-Cicle_Suite" class="show-methods passed suite-Cicle_Suite"> (show)</a> <!-- show-methods passed suite-Cicle_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Cicle_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSBoardTest" class="method navigator-link" hash-for-method="tC01createlist">tC01createlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSBoardTest" class="method navigator-link" hash-for-method="tC02setlistascomplete">tC02setlistascomplete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSBoardTest" class="method navigator-link" hash-for-method="tC03unsetlistascomplete">tC03unsetlistascomplete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSBoardTest" class="method navigator-link" hash-for-method="tC04reatecardonthelist">tC04reatecardonthelist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSBoardTest" class="method navigator-link" hash-for-method="tC05addcardnote">tC05addcardnote</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSBoardTest" class="method navigator-link" hash-for-method="tC06addattachmenttocard">tC06addattachmenttocard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSBoardTest" class="method navigator-link" hash-for-method="tC07movingcard">tC07movingcard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSBoardTest" class="method navigator-link" hash-for-method="tC08addmemberoncard">tC08addmemberoncard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSBoardTest" class="method navigator-link" hash-for-method="tC09createnewprivatecard">tC09createnewprivatecard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSGroupChatTest" class="method navigator-link" hash-for-method="tC10sendchattogoupchat">tC10sendchattogoupchat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSGroupChatTest" class="method navigator-link" hash-for-method="tC11sendattachmentgroupchat">tC11sendattachmentgroupchat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSGroupChatTest" class="method navigator-link" hash-for-method="tC12mentionmemberonchat">tC12mentionmemberonchat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSGroupChatTest" class="method navigator-link" hash-for-method="tC13deletesentmessage">tC13deletesentmessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSScheduleTest" class="method navigator-link" hash-for-method="tC14createnewevent">tC14createnewevent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSScheduleTest" class="method navigator-link" hash-for-method="tC15addmemberonevent">tC15addmemberonevent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSScheduleTest" class="method navigator-link" hash-for-method="tC16addnotesonevent">tC16addnotesonevent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSScheduleTest" class="method navigator-link" hash-for-method="tC17createnewprivateevent">tC17createnewprivateevent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSScheduleTest" class="method navigator-link" hash-for-method="tC18editcreatedevent">tC18editcreatedevent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cicle_Suite" title="bigprojectsekolahqa.TSScheduleTest" class="method navigator-link" hash-for-method="tC19addeventtogooglecalendar">tC19addeventtogooglecalendar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Cicle_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Cicle_Suite" class="panel Cicle_Suite">
+          <div class="suite-Cicle_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigprojectsekolahqa.TSGroupChatTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC10sendchattogoupchat">
+                  </a> <!-- tC10sendchattogoupchat -->
+                  <span class="method-name">tC10sendchattogoupchat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC11sendattachmentgroupchat">
+                  </a> <!-- tC11sendattachmentgroupchat -->
+                  <span class="method-name">tC11sendattachmentgroupchat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC12mentionmemberonchat">
+                  </a> <!-- tC12mentionmemberonchat -->
+                  <span class="method-name">tC12mentionmemberonchat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC13deletesentmessage">
+                  </a> <!-- tC13deletesentmessage -->
+                  <span class="method-name">tC13deletesentmessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cicle_Suite-class-passed -->
+          <div class="suite-Cicle_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigprojectsekolahqa.TSBoardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC01createlist">
+                  </a> <!-- tC01createlist -->
+                  <span class="method-name">tC01createlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC02setlistascomplete">
+                  </a> <!-- tC02setlistascomplete -->
+                  <span class="method-name">tC02setlistascomplete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC03unsetlistascomplete">
+                  </a> <!-- tC03unsetlistascomplete -->
+                  <span class="method-name">tC03unsetlistascomplete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC04reatecardonthelist">
+                  </a> <!-- tC04reatecardonthelist -->
+                  <span class="method-name">tC04reatecardonthelist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC05addcardnote">
+                  </a> <!-- tC05addcardnote -->
+                  <span class="method-name">tC05addcardnote</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC06addattachmenttocard">
+                  </a> <!-- tC06addattachmenttocard -->
+                  <span class="method-name">tC06addattachmenttocard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC07movingcard">
+                  </a> <!-- tC07movingcard -->
+                  <span class="method-name">tC07movingcard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC08addmemberoncard">
+                  </a> <!-- tC08addmemberoncard -->
+                  <span class="method-name">tC08addmemberoncard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC09createnewprivatecard">
+                  </a> <!-- tC09createnewprivatecard -->
+                  <span class="method-name">tC09createnewprivatecard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cicle_Suite-class-passed -->
+          <div class="suite-Cicle_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigprojectsekolahqa.TSScheduleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC14createnewevent">
+                  </a> <!-- tC14createnewevent -->
+                  <span class="method-name">tC14createnewevent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC15addmemberonevent">
+                  </a> <!-- tC15addmemberonevent -->
+                  <span class="method-name">tC15addmemberonevent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC16addnotesonevent">
+                  </a> <!-- tC16addnotesonevent -->
+                  <span class="method-name">tC16addnotesonevent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC17createnewprivateevent">
+                  </a> <!-- tC17createnewprivateevent -->
+                  <span class="method-name">tC17createnewprivateevent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC18editcreatedevent">
+                  </a> <!-- tC18editcreatedevent -->
+                  <span class="method-name">tC18editcreatedevent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tC19addeventtogooglecalendar">
+                  </a> <!-- tC19addeventtogooglecalendar -->
+                  <span class="method-name">tC19addeventtogooglecalendar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cicle_Suite-class-passed -->
+        </div> <!-- panel Cicle_Suite -->
+        <div panel-name="test-xml-Cicle_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\bigprojectsekolahqa\testNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Cicle Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;TS Board&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;bigprojectsekolahqa.TSBoardTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TS Board --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;TS Group Chat&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;bigprojectsekolahqa.TSGroupChatTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TS Group Chat --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;TS Schedule&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;bigprojectsekolahqa.TSScheduleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TS Schedule --&gt;
+&lt;/suite&gt; &lt;!-- Cicle Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Cicle_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Cicle Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TS Board (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TS Group Chat (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TS Schedule (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Cicle_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Cicle Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Cicle_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Cicle Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Cicle_Suite');
+function tableData_Cicle_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tC14createnewevent')
+data.setCell(0, 2, 'bigprojectsekolahqa.TSScheduleTest')
+data.setCell(0, 3, 35432);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tC01createlist')
+data.setCell(1, 2, 'bigprojectsekolahqa.TSBoardTest')
+data.setCell(1, 3, 33763);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tC18editcreatedevent')
+data.setCell(2, 2, 'bigprojectsekolahqa.TSScheduleTest')
+data.setCell(2, 3, 16197);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tC19addeventtogooglecalendar')
+data.setCell(3, 2, 'bigprojectsekolahqa.TSScheduleTest')
+data.setCell(3, 3, 15612);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tC17createnewprivateevent')
+data.setCell(4, 2, 'bigprojectsekolahqa.TSScheduleTest')
+data.setCell(4, 3, 12028);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tC02setlistascomplete')
+data.setCell(5, 2, 'bigprojectsekolahqa.TSBoardTest')
+data.setCell(5, 3, 8475);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tC10sendchattogoupchat')
+data.setCell(6, 2, 'bigprojectsekolahqa.TSGroupChatTest')
+data.setCell(6, 3, 7984);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tC03unsetlistascomplete')
+data.setCell(7, 2, 'bigprojectsekolahqa.TSBoardTest')
+data.setCell(7, 3, 7780);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tC12mentionmemberonchat')
+data.setCell(8, 2, 'bigprojectsekolahqa.TSGroupChatTest')
+data.setCell(8, 3, 6831);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tC15addmemberonevent')
+data.setCell(9, 2, 'bigprojectsekolahqa.TSScheduleTest')
+data.setCell(9, 3, 6711);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tC09createnewprivatecard')
+data.setCell(10, 2, 'bigprojectsekolahqa.TSBoardTest')
+data.setCell(10, 3, 6632);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'tC16addnotesonevent')
+data.setCell(11, 2, 'bigprojectsekolahqa.TSScheduleTest')
+data.setCell(11, 3, 6398);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'tC04reatecardonthelist')
+data.setCell(12, 2, 'bigprojectsekolahqa.TSBoardTest')
+data.setCell(12, 3, 5954);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'tC08addmemberoncard')
+data.setCell(13, 2, 'bigprojectsekolahqa.TSBoardTest')
+data.setCell(13, 3, 5342);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'tC05addcardnote')
+data.setCell(14, 2, 'bigprojectsekolahqa.TSBoardTest')
+data.setCell(14, 3, 5321);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'tC06addattachmenttocard')
+data.setCell(15, 2, 'bigprojectsekolahqa.TSBoardTest')
+data.setCell(15, 3, 5078);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'tC13deletesentmessage')
+data.setCell(16, 2, 'bigprojectsekolahqa.TSGroupChatTest')
+data.setCell(16, 3, 5063);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'tC07movingcard')
+data.setCell(17, 2, 'bigprojectsekolahqa.TSBoardTest')
+data.setCell(17, 3, 4790);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'tC11sendattachmentgroupchat')
+data.setCell(18, 2, 'bigprojectsekolahqa.TSGroupChatTest')
+data.setCell(18, 3, 4773);
+window.suiteTableData['Cicle_Suite']= { tableData: data, tableDiv: 'times-div-Cicle_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Cicle_Suite">
+              </div> <!-- times-div-Cicle_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Cicle_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Cicle Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Cicle_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Cicle_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigprojectsekolahqa.TSBoardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">tC01createlist</span>
+                <span class="method-start">4418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tC02setlistascomplete</span>
+                <span class="method-start">38188 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tC03unsetlistascomplete</span>
+                <span class="method-start">46667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tC04reatecardonthelist</span>
+                <span class="method-start">54451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tC05addcardnote</span>
+                <span class="method-start">60407 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tC06addattachmenttocard</span>
+                <span class="method-start">65729 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tC07movingcard</span>
+                <span class="method-start">70809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tC08addmemberoncard</span>
+                <span class="method-start">75604 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tC09createnewprivatecard</span>
+                <span class="method-start">80949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">87588 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigprojectsekolahqa.TSGroupChatTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">88114 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">tC10sendchattogoupchat</span>
+                <span class="method-start">90489 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tC11sendattachmentgroupchat</span>
+                <span class="method-start">98475 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tC12mentionmemberonchat</span>
+                <span class="method-start">103250 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tC13deletesentmessage</span>
+                <span class="method-start">110084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">115149 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigprojectsekolahqa.TSScheduleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">115618 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">tC14createnewevent</span>
+                <span class="method-start">118369 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tC15addmemberonevent</span>
+                <span class="method-start">153804 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tC16addnotesonevent</span>
+                <span class="method-start">160517 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tC17createnewprivateevent</span>
+                <span class="method-start">166917 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tC18editcreatedevent</span>
+                <span class="method-start">178947 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tC19addeventtogooglecalendar</span>
+                <span class="method-start">195145 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">210759 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
